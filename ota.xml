@@ -34,10 +34,9 @@
   <DonateURL>https://www.paypal.me/JuanR99</DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>### Changelog 03/10/2017 - Beta build, everything is working but more changes to the power hal are needed
-* Power hal for eas, improved perfomance
-* Ramdisk updates for eas
-* Autobrightness values from Acoeui
-* Small fixes (check slim-x2 to see the changes)
+  <Changelog>### Changelog 10/10/2017
+    * Switched to the new vendor from andr68rus
+    * Rom compiled with GCC 6.x toolchain based on UBER. Big thanks to KuranKaname for helping me with this!
+    * Small fixes
   </Changelog>
 </ROM>
