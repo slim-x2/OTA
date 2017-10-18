@@ -2,11 +2,11 @@
 <ROM>
   <!-- Your ROM Name -->
   <RomName>Slim_x2-Juan</RomName>
-  <VersionName>20171010</VersionName>
+  <VersionName>20171015</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20171010</VersionNumber>
+  <VersionNumber type="integer">20171015</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
@@ -14,7 +14,7 @@
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
   <DirectUrl nil="true" />
-  <HttpUrl><![CDATA[https://www.androidfilehost.com/?fid=962021903579484295]]></HttpUrl>
+  <HttpUrl><![CDATA[https://androidfilehost.com/?fid=745849072291681500]]></HttpUrl>
   <!-- What version are you issuing? -->
   <Android>7.1.2</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
@@ -22,7 +22,7 @@
   <CheckMD5 nil="true" />
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">659838192</FileSize>
+  <FileSize type="integer">631014838</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>moto999999</Developer>
@@ -34,10 +34,11 @@
   <DonateURL>https://www.paypal.me/JuanR99</DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>### Changelog 10/10/2017
-    * Switched to the new vendor from andr68rus
-    * Rom compiled with GCC 6.x toolchain based on UBER. Big thanks to KuranKaname for helping me with this!
-    * Dolby atmos included
+  <Changelog>### Changelog 15/10/2017
+    * Improved autobrightness values (now you can see the screen in the street :D)
+    * Reverted to the old vendor for now (GPS wasn't working fine)
+    * Rom compiled with the right arquitecture (this improves performance!)
+    * Slimrom updated to 1.14 (check www.slimroms.org for the changelog)
     * Small fixes
   </Changelog>
 </ROM>
